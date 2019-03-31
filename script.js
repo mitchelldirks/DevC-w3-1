@@ -241,7 +241,7 @@ function renderHTML(Starwars) {
     htmlstring +="<table>"
         + "<tr><th>Name</th>" 
         + "<th>Rotation Period</th>" 
-        + "<th>Orbital Period</th>" 
+        + "<th>Surface Water</th>" 
         + "<th>Diameter</th>"
         +"<th>Gravity</th>" 
         + "<th>Climate</th></tr>";
@@ -249,7 +249,7 @@ function renderHTML(Starwars) {
         htmlstring += "<tr> "
             + "<td>" + Starwars.results[ii].name + "</td>"
             + "<td>" + Starwars.results[ii].rotation_period + "</td>"
-            + "<td>" + Starwars.results[ii].orbital_period + "</td>"
+            + "<td>" + Starwars.results[ii].surface_water + "</td>"
             + "<td>" + Starwars.results[ii].diameter + "</td>"
             + "<td>" + Starwars.results[ii].gravity + "</td>"
             + "<td>" + Starwars.results[ii].climate + "</td>"
